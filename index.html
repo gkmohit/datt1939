@@ -4,10 +4,16 @@
 	<title>Page 1</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/page1.css">
-	<script type="text/javascript" ></script>
 </head>
+<!-- <body onload="load(page2.html)"> -->
 <body onload="">
 	
+	<script>
+		setTimeout (function load()
+		{
+			window.location.href = "./pages/page2.html";
+		}, 5000);
+	</script>
 	<script src="./assets/js/custom.js"></script>
 </body>
 </html>
