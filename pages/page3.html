@@ -10,11 +10,13 @@
 	
 
 	<script>
+		var knockingSound = new Audio("../assets/sounds/shortKnock.m4a"); // buffers automatically when created
+		knockingSound.play();
 		setTimeout (function load()
 		{
 			window.location.href = "./page4.html";
-		}, 800);
+		}, 2000);
 	</script>
-	<script src="./assets/js/custom.js"></script>
+	<script src="../assets/js/custom.js"></script>
 </body>
 </html>

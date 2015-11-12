@@ -3,16 +3,30 @@
 <head>
 	<title>Page 1</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/page1.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 </head>
 <!-- <body onload="load(page2.html)"> -->
 <body onload="">
 	
+	<div id="dialog1">
+		<img src="./assets/images/dialogs/dialogPage1.png">
+	</div>
 	<script>
+		var knockingSound = new Audio("./assets/sounds/longKnock.m4a"); // buffers automatically when created
+		setTimeout(
+			knockingSound.play()
+			,1000);
+		setTimeout(
+			function setVisibility(){
+				document.getElementById("dialog1").style.visibility = "visible";
+			}
+		, 3500);
+		// dialog1.style.visibility = "visible";
+		// var dialog = $("#dialog1").set
 		setTimeout (function load()
 		{
 			window.location.href = "./pages/page2.html";
-		}, 5000);
+		}, 6000);
 	</script>
 	<script src="./assets/js/custom.js"></script>
 </body>

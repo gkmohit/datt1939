@@ -1,0 +1,14 @@
+body{
+	background-image: url("../images/backgrounds/page1Background.png") ;
+	background-repeat: no-repeat;;
+	background-size:cover;
+}
+
+#dialog1{
+	vertical-align: middle;
+	float: right;
+	margin: auto;
+	width: 100%;
+	visibility: hidden;
+	text-align: center;
+}
