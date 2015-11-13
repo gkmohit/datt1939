@@ -4,18 +4,22 @@
 	<title>Page 1</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+	<link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width-device, initial-scale=1.0">
 </head>
 <!-- <body onload="load(page2.html)"> -->
-<body onload="">
+<body>
 	
-	<div id="dialog1">
-		<img src="./assets/images/dialogs/dialogPage1.png">
+	<div id="container">
+		<p>
+			Hello there<br/>
+			Welcome to terminal. <br/>
+			This terminal is very simple. For example, to login type login and so on. <br/>
+			Hope you have fun and enjoy. <br/>
+		</p>
+		#########################################
 	</div>
 	<script>
-		var msg = new SpeechSynthesisUtterance('Hello World');
-		msg.voiceURI = 'native';
-    	window.speechSynthesis.speak(msg);
 		// var knockingSound = new Audio("./assets/sounds/longKnock.m4a"); // buffers automatically when created
 		// setTimeout(
 		// 	knockingSound.play()
@@ -33,5 +37,6 @@
 		// }, 6000);
 	</script>
 	<script src="./assets/js/custom.js"></script>
+	<script src="./assets/js/index.js"></script>
 </body>
 </html>

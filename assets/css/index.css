@@ -1,4 +1,4 @@
-body{
+/*body{
 	background-image: url("../images/backgrounds/page1Background.png") ;
 	background-repeat: no-repeat;;
 	background-size:cover;
@@ -11,4 +11,29 @@ body{
 	width: 100%;
 	visibility: hidden;
 	text-align: center;
+}*/
+html, body{
+	height: 100%;
+}
+body{
+  font-family: 'Orbitron', sans-serif;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url("../images/backgrounds/page1Background.png");
+  overflow:hidden; 
+  margin:0
+
+}
+
+#container{
+  max-width:60%;
+  line-height: 30px;
+  margin: 0 auto;
+  padding : 0 5%;
+  height: 100%;
+  background-color: #1A281E;
+  font-family: 'Orbitron';
+  color: #17FD86;
+  padding: 10px;
+  white-space: normal;
 }
