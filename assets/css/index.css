@@ -21,8 +21,27 @@ body{
   background-size:cover;
   background-image: url("../images/backgrounds/page1Background.png");
   overflow:hidden; 
-  margin:0
+  margin:0;
+  font-size: 1.2em;
+}
 
+input, input:focus {
+  border:none;
+}
+input {
+  animation: blink-empty 1s infinite;
+  border-left: transparent solid 1px;
+  margin:5px 
+}
+
+label{
+	float: left;
+	padding:0;
+	margin: 0;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
 }
 
 #container{
@@ -36,4 +55,27 @@ body{
   color: #17FD86;
   padding: 10px;
   white-space: normal;
+  text-align: left;
 }
+
+#userInput{
+	clear: both;
+	width: 98%;
+	max-width: 100%;
+	background-color:rgba(0, 0, 0, 0);
+	font-family: 'Orbitron', sans-serif;
+	/*color: #1A281E;*/
+	color: #17FD86;
+	height: 24px;
+	font-size: 1.1em;
+	float: right;
+	padding:0;
+	margin: 0;
+
+}
+
+span{
+    display: block;
+    overflow: hidden;
+}
+

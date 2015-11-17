@@ -17,8 +17,15 @@
 			This terminal is very simple. For example, to login type login and so on. <br/>
 			Hope you have fun and enjoy. <br/>
 		</p>
-		#########################################
-		
+		<p>#########################################</p>
+		<div>
+			<form id="inputForm" >
+				<label for="userInput">datt1939 : </label>
+				<span id="userInputSpan">
+					<input type="text" id="userInput" onkeydown="readInput(this, event)"/>
+				</span>
+			</form>
+		</div>
 	</div>
 	<script>
 		// var knockingSound = new Audio("./assets/sounds/longKnock.m4a"); // buffers automatically when created

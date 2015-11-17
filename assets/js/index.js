@@ -1,4 +1,7 @@
 // var introMessage = "Hello there. . . Welcome to terminal. This terminal is very simple. For example, to login type login and so on. Hope you have fun and enjoy. ";
+window.onload = function() {
+  document.getElementById("userInput").focus();
+};
 var introMessage = "Hello there";
 var introSpeech = new SpeechSynthesisUtterance();
 var voices = window.speechSynthesis.getVoices();
@@ -11,6 +14,15 @@ introSpeech.text = introMessage;
 introSpeech.lang = 'en-US';
 window.speechSynthesis.speak(introSpeech);
 
+
+function readInput(element,event){
+	if ( event.keyCode == 13 ) { // 13 is enter key
+        // Execute code here.
+        // var temp = e.value;
+        // console.log(temp);
+        alert(element.value);
+    }
+}
 
 // var msg = new SpeechSynthesisUtterance();
 // var voices = window.speechSynthesis.getVoices();
