@@ -17,11 +17,15 @@ window.speechSynthesis.speak(introSpeech);
 
 function readInput(element,event){
 	if ( event.keyCode == 13 ) { // 13 is enter key
-        // Execute code here.
-        // var temp = e.value;
-        // console.log(temp);
-        alert(element.value);
-    }
+        
+		var newDiv = document.createElement("div");  // create a new div element
+		// var newContent = document.createTextNode("Hi there and greetings!"); // and give it some content 
+		// newDiv.appendChild(newContent); //add the text node to the newly created div. 
+		
+		// var currentDiv = document.getElementById("inputDiv");  // add the newly created element and its content into the DOM 
+		// document.body.insertBefore(newDiv, currentDiv); 
+		alert(element.value);
+	}
 }
 
 // var msg = new SpeechSynthesisUtterance();
