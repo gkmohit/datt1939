@@ -475,10 +475,26 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-#sheetText{
-    color: #FDAB38;
+.sheetText{
+    color: #F05F40;
 }
-#faceText{
+.faceText{
     color: #FFE;
     font-weight: lighter;
+}
+
+#userNameInput{
+    width: 30%;
+}
+#password{
+    width: 30%;
+}
+
+.col-md-12 column form {
+   display:table;
+   margin:auto;
+}
+
+#wrongLoginText{
+    visibility: hidden;
 }
