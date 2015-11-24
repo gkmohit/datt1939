@@ -1,11 +1,17 @@
+//Variables
 var counter = 0;
 var condition = false;
-function validateLogin(){
-	var userName = document.getElementById("userNameInput");
-	var password = document.getElementById("password");
-	var wrongLoginText = document.getElementById("wrongLoginText");
-	var PASSWORD_REG = /([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])/;
-    var USERNAME_REG = /^[a-z][a-z0-9]+/;
+var PASSWORD_REG = /([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])/;
+var USERNAME_REG = /^[a-z][a-z0-9]+/;
+var loginButton = document.getElementById("loginButton");
+var userName = document.getElementById("userNameInput");
+var password = document.getElementById("password");
+var wrongLoginText = document.getElementById("wrongLoginText");
+
+//Validate login for login button.
+var validateLogin = function(){
+	
+	
     var newUrl = ("./pages/login.html");
 
 	//Chceking if the username and password are correct.
@@ -38,6 +44,9 @@ function validateLogin(){
 			counter++;
 		}
     }
-    console.log(counter);
-	
 }
+
+
+//Setting an onclick listener for login button;
+loginButton.onclick = validateLogin;
+
