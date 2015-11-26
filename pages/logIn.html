@@ -19,19 +19,8 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/custom.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body id="page-top">
@@ -40,13 +29,7 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand " href="#page-top"><span class="sheetText">sheet</span><span class="faceText">Face</span></a>
+                <a class="navbar-brand " href="../index.html"><span class="sheetText">sheet</span><span class="faceText">Face</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,7 +53,18 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">TEST 1</div>
+        <div class="col-md-2">TEST 2</div>
+        <div class="col-md-2">TEST 3</div>
+        <div class="col-md-2">TEST 4</div>
+        <div class="col-md-2">TEST 5</div>
+    </div>
+<!-- 
     <header>
         <div class="header-content">
             <div class="header-content-inner">
@@ -78,29 +72,21 @@
                 <h1>Welcome to <span class="sheetText">Sheet</span><span class="faceText">Face</span></h1>
                 <hr>
                 <p>Connect with <span class="sheetText">Sheet</span><span class="faceText">Faces</span> around the world.</p>
-                <form role="form">
-                      <div class="form-group">
-                        <label for="userNameInput">Email address:</label>
-                        <input type="text" class="form-control" id="userNameInput" maxlength="9">
-                      </div>
-                      <div class="form-group">
-                        <label for="password">Password:</label>
-                        <input type="password" class="form-control" id="password" maxlength="9">
-                      </div>
-                      <div class="checkbox">
-                        <label><input type="checkbox"> Remember me</label>
-                      </div>
-                      <a href="#about" class="btn btn-warning btn-xl">Log In</a>
-                </form>
+                <a href="#logIn" class="btn btn-warning btn-xl">Log In</a>
+                <a href="#about" class="btn  btn-primary btn-xl">Sign Up</a>
             </div>
         </div>
     </header>
 
-<!--     <section class="bg-primary" id="logIn">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+    <section class="bg-primary" id="logIn">
+        <div class="container" >
+            <div class="row clearfix">
+                <div class="col-md-12 column">
                     <form role="form">
+                      <h2>Seems like you are interested to see what we have here</h2>
+                      <br/>
+                      <p id="wrongLoginText">Text goes here.</p>
+                      <br/>
                       <div class="form-group">
                         <label for="userNameInput">Email address:</label>
                         <input type="text" class="form-control" id="userNameInput" maxlength="9">
@@ -112,11 +98,11 @@
                       <div class="checkbox">
                         <label><input type="checkbox"> Remember me</label>
                       </div>
-                      <a href="#about" class="btn btn-warning btn-xl">Log In</a>
-                </form>
+                      <a href="#about" class="btn btn-warning btn-xl" id="loginButton">Log In</a>
+                    </form>
                 </div>
             </div>
-        </div>
+    </div>
     </section> -->
     <!--
     <section id="services">
@@ -289,7 +275,7 @@
     </section> -->
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 

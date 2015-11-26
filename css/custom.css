@@ -475,13 +475,14 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+    background-image: url("../img/background.png");
 }
 
 .sheetText{
     color: #F05F40;
 }
 .faceText{
-    color: #000;
+    color: #C68E40;
     font-weight: lighter;
 }
 
