@@ -436,26 +436,28 @@ body {
     background-image: url("../img/background.png");
 }
 
+/*SheetFace logo of Sheet text*/
 .sheetText{
     color: #F05F40;
 }
+
+/*SheetFace logo of Face text*/
 .faceText{
     color: #C68E40;
     font-weight: lighter;
 }
 
+/*Username text box */
 #userNameInput{
     width: 30%;
 }
+
+/*Password input text*/
 #password{
     width: 30%;
 }
 
-.col-md-12 column form {
-   display:table;
-   margin:auto;
-}
-
+/*Wrong login text*/
 #wrongLoginText{
     visibility: hidden;
 }
@@ -463,25 +465,59 @@ body {
 .row{
     overflow: hidden; 
     margin-top: 10px;
-    margin-bottom: 5px
-
+    margin-bottom: 5px;
 }
 
+/************/
+/*LOGIN PAGE*/
+/************/
+
+/*images around pictures*/
 .placeholder-img{
     float: left;
-    margin-top: 10px
+    margin: 10px 5px 5px ;
 }
 
-.person-update{
+/*TRENDING NEWS SECTION*/
+#trending-news{
+    background-color:lavender;
+}
+.trending-news-item{
+    width: 100%;
+}
+
+/*NEWS FEED*/
+#news-feed{
+    background-color:lavenderblush;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.news-feed-item{
+    width: 100%;
+    height:100%;
+}
+
+.person-update-div{
     text-align: left;
 }
 
-.row [class*="col-"]{
+.comment-text-box{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+/*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
+}*/
+
+/*CURRENT WEATHER*/
+#current-weather{
+    background-color:lavender;
 }
-
-
-
+.current-weather-item{
+    width: 100%;
+}
 
 
