@@ -482,6 +482,7 @@ body {
 #trending-news{
     background-color:lavender;
     overflow:hidden;
+    float: left;
 }
 .trending-news-item{
     width: 100%;
@@ -490,13 +491,13 @@ body {
 /*NEWS FEED*/
 #news-feed{
     background-color:lavenderblush;
-    height: 100%;
+    height: 600px;
     overflow-y: scroll;
 }
 
 .news-feed-item{
+    height:30%;
     width: 100%;
-    height:100%;
 }
 
 .person-update-div{
@@ -508,6 +509,7 @@ body {
     margin-bottom: 10px;
     padding: 5px;
 }
+
 /*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
@@ -516,6 +518,8 @@ body {
 /*CURRENT WEATHER*/
 #current-weather{
     background-color:lavender;
+    float: right;
+    overflow:hidden;
 }
 .current-weather-item{
     width: 100%;
