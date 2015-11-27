@@ -481,6 +481,7 @@ body {
 /*TRENDING NEWS SECTION*/
 #trending-news{
     background-color:lavender;
+    overflow:hidden;
 }
 .trending-news-item{
     width: 100%;
