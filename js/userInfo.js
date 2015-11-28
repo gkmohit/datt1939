@@ -1,0 +1,6 @@
+var person = {
+	firstName : "",
+	lastName : "",
+
+}
+
