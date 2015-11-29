@@ -510,6 +510,11 @@ body {
     padding: 5px;
 }
 
+.profile-picture{
+    width: 96px;
+    height: 96px;
+}
+
 /*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
