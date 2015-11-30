@@ -1,12 +1,3 @@
-//Function to change the value domElement with the passes string
-function changeInnerHTML(domElement, innerHtmlString ) {
-	domElement.innerHTML = innerHtmlString;
-};
-
-//function to change the source of profile picture image.
-function changeImgSource(domElement, source){
-	domElement.src = source;
-}
 
 //Variable for person-status class on the screen.
 var personStatus = document.getElementsByClassName("person-status");

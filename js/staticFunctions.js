@@ -3,6 +3,16 @@ function randInt(low,high) {
 	return Math.floor(Math.random()*(high-low+1)+low);
 }
 
+//Function to change the value domElement with the passes string
+function changeInnerHTML(domElement, innerHtmlString ) {
+	domElement.innerHTML = innerHtmlString;
+};
+
+//function to change the source of profile picture image.
+function changeImgSource(domElement, source){
+	domElement.src = source;
+}
+
 // function Person(fullName profilePic, bio, species){
 // 	this.fullName = fullName;
 // 	this.profilePic = profilePic;

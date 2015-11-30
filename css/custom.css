@@ -498,6 +498,7 @@ body {
 .news-feed-item{
     height:30%;
     width: 100%;
+    border-bottom: 1px solid black;
 }
 
 .person-update-div{
@@ -560,6 +561,11 @@ body {
 
 .user-details-col{
     vertical-align: middle;
+}
+
+.recent-updates-col{
+    overflow-y: scroll;
+    height: 405px;
 }
 
 
