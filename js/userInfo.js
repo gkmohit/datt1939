@@ -145,7 +145,7 @@ var jackieRoostisaurus = new Person(
 
 var jamesSteller = new Person(
 	"James Steller",
-	getProperty("jackieRoostisaurus", imgSource),
+	getProperty("jamesSteller", imgSource),
 	"A movie dirctor for 40 years and I will soon release my first trailer.",
 	"Human",
 	"<a href=\"../pages/jamesSteller.html\" class=\"profile-page-link\">James Steller</a>"
