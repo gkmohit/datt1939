@@ -3,7 +3,7 @@ var foxyGrandma = new Person(
 	getProperty("foxyGrandma", imgSource),
 	"Granny of two beautiful creatures from the Zoo, the toad sage and the monkey king.",
 	"Unclassified",
-	"<a href=\"../pages/profilePages/foxyGrandma.html\" class=\"profile-page-link\">Foxy Grandma</a>"
+	"<a href=\"../pages/foxyGrandma.html\" class=\"profile-page-link\">Foxy Grandma</a>"
 	);
 
 
@@ -12,7 +12,7 @@ var adamMcDonald = new Person(
 	getProperty("adamMcDonald", imgSource),
 	"A big fan of Indiana Jones and his hat. I love to eat flies and other bugs for food.",
 	"Geckko",
-	"<a href=\"../pages/profilePages/adamMcDonald.html\" class=\"profile-page-link\">Adam McDonald</a>"
+	"<a href=\"../pages/adamMcDonald.html\" class=\"profile-page-link\">Adam McDonald</a>"
 	);
 
 var aubreyHarriot = new Person(
@@ -20,7 +20,7 @@ var aubreyHarriot = new Person(
 	getProperty("aubreyHarriot", imgSource),
 	"Looking for single men for research purposes. Anyone interested please contact me soon at lookingformen.com .",
 	"Female",
-	"<a href=\"../pages/profilePages/aubreyHarriot.html\" class=\"profile-page-link\">Aubrey Harriot</a>"
+	"<a href=\"../pages/aubreyHarriot.html\" class=\"profile-page-link\">Aubrey Harriot</a>"
 	);
 
 var baldy = new Person(
@@ -28,7 +28,7 @@ var baldy = new Person(
 	getProperty("baldy", imgSource),
 	"With my beautiful long streak of hair, I will one day surpass Rapunzel.",
 	"Hairy",
-	"<a href=\"../pages/profilePages/baldy.html\" class=\"profile-page-link\">Baldy</a>"
+	"<a href=\"../pages/baldy.html\" class=\"profile-page-link\">Baldy</a>"
 	);
 
 var batman420 = new Person(
@@ -36,7 +36,7 @@ var batman420 = new Person(
 	getProperty("batman420", imgSource),
 	"Seeking for new jobs as I lost my money in cleaning my horn.",
 	"Unicorn",
-	"<a href=\"../pages/profilePages/batman420.html\" class=\"profile-page-link\">Batman 420</a>"
+	"<a href=\"../pages/batman420.html\" class=\"profile-page-link\">Batman 420</a>"
 	);
 
 var biancaGonzales = new Person(
@@ -44,7 +44,7 @@ var biancaGonzales = new Person(
 	getProperty("biancaGonzales", imgSource),
 	"Destruction, we need to start some destruction to create a beautiful place",
 	"Tin Man",
-	"<a href=\"../pages/profilePages/biancaGonzales.html\" class=\"profile-page-link\">Bianca Gonzales</a>"
+	"<a href=\"../pages/biancaGonzales.html\" class=\"profile-page-link\">Bianca Gonzales</a>"
 	);
 
 var brokkLee = new Person(
@@ -52,7 +52,7 @@ var brokkLee = new Person(
 	getProperty("brokkLee", imgSource),
 	"All the kids hate me for some reason . . What is wrong with being green?",
 	"Vegetables",
-	"<a href=\"../pages/profilePages/brokkLee.html\" class=\"profile-page-link\">Brokk Lee</a>"
+	"<a href=\"../pages/brokkLee.html\" class=\"profile-page-link\">Brokk Lee</a>"
 	);
 
 var bubsyBob = new Person(
@@ -60,7 +60,7 @@ var bubsyBob = new Person(
 	getProperty("bubsyBob", imgSource),
 	"I will avenge the loss of my eye and kill the hooman that took away my wife.",
 	"Animal",
-	"<a href=\"../pages/profilePages/bubsyBob.html\" class=\"profile-page-link\">Bubsy Bob</a>"
+	"<a href=\"../pages/bubsyBob.html\" class=\"profile-page-link\">Bubsy Bob</a>"
 	);
 
 var bunnyFace = new Person(
@@ -68,7 +68,7 @@ var bunnyFace = new Person(
 	getProperty("bunnyFace", imgSource),
 	"Carrots? Why would you judge me by my name ? Stereotype much ?",
 	"Animal",
-	"<a href=\"../pages/profilePages/bunnyFace.html\" class=\"profile-page-link\">Bunny Face</a>"
+	"<a href=\"../pages/bunnyFace.html\" class=\"profile-page-link\">Bunny Face</a>"
 	);
 
 var catLover333 = new Person(
@@ -76,7 +76,7 @@ var catLover333 = new Person(
 	getProperty("catLover333", imgSource),
 	"I eat cat for breakfast, lunch and dinner. Yummy!!",
 	"Human",
-	"<a href=\"../pages/profilePages/catLover333.html\" class=\"profile-page-link\">Cat Lover333</a>"
+	"<a href=\"../pages/catLover333.html\" class=\"profile-page-link\">Cat Lover333</a>"
 	);
 
 var cyborg0070 = new Person(
@@ -84,7 +84,7 @@ var cyborg0070 = new Person(
 	getProperty("cyborg0070", imgSource),
 	"The future is very very very dark. I know it because it will be night soon.",
 	"Digital",
-	"<a href=\"../pages/profilePages/cyborg0070.html\" class=\"profile-page-link\">Cyborg 0070</a>"
+	"<a href=\"../pages/cyborg0070.html\" class=\"profile-page-link\">Cyborg 0070</a>"
 	);
 
 var drFreezefire = new Person(
@@ -92,7 +92,7 @@ var drFreezefire = new Person(
 	getProperty("drFreezefire", imgSource),
 	"The cold never bothered me anyway. . But the heat.",
 	"Human",
-	"<a href=\"../pages/profilePages/drFreezefire.html\" class=\"profile-page-link\">Dr. Freeze Fire</a>"
+	"<a href=\"../pages/drFreezefire.html\" class=\"profile-page-link\">Dr. Freeze Fire</a>"
 	);
 
 var dustyTheHedgehog = new Person(
@@ -100,7 +100,7 @@ var dustyTheHedgehog = new Person(
 	getProperty("dustyTheHedgehog", imgSource),
 	"Ahh I love the food I find in swimming pools. Humans taste good.",
 	"Animal",
-	"<a href=\"../pages/profilePages/dustyTheHedgehog.html\" class=\"profile-page-link\">Dusty the Hedgehog</a>"
+	"<a href=\"../pages/dustyTheHedgehog.html\" class=\"profile-page-link\">Dusty the Hedgehog</a>"
 	);
 
 var feelTheRage = new Person(
@@ -108,7 +108,7 @@ var feelTheRage = new Person(
 	getProperty("feelTheRage", imgSource),
 	"I love pandas. They are so cute and cuddly.",
 	"Lover",
-	"<a href=\"../pages/profilePages/feelTheRage.html\" class=\"profile-page-link\">FEEL THE RAGE</a>"
+	"<a href=\"../pages/feelTheRage.html\" class=\"profile-page-link\">FEEL THE RAGE</a>"
 	);
 
 var figsTucker = new Person(
@@ -116,7 +116,7 @@ var figsTucker = new Person(
 	getProperty("figsTucker", imgSource),
 	"War survivor who weilds the sword made of chocolate.",
 	"Female",
-	"<a href=\"../pages/profilePages/figsTucker.html\" class=\"profile-page-link\">Figs Tucker</a>"
+	"<a href=\"../pages/figsTucker.html\" class=\"profile-page-link\">Figs Tucker</a>"
 	);
 
 var hellfireSalamander666 = new Person(
@@ -124,7 +124,7 @@ var hellfireSalamander666 = new Person(
 	getProperty("hellfireSalamander666", imgSource),
 	"With my I eyes I see everything that is nice. But for some reason I cannot see you.",
 	"Human",
-	"<a href=\"../pages/profilePages/hellfireSalamander666.html\" class=\"profile-page-link\">Hellfire Salamander666</a>"
+	"<a href=\"../pages/hellfireSalamander666.html\" class=\"profile-page-link\">Hellfire Salamander666</a>"
 	);
 
 var iLIKeBaNAnaS444 = new Person(
@@ -132,7 +132,7 @@ var iLIKeBaNAnaS444 = new Person(
 	getProperty("iLIKeBaNAnaS444", imgSource),
 	"I saved a monkey once names BaNAnaS444, and I am not married to him.",
 	"Human",
-	"<a href=\"../pages/profilePages/iLIKeBaNAnaS444.html\" class=\"profile-page-link\">I LIKe BaNAnaS444</a>"
+	"<a href=\"../pages/iLIKeBaNAnaS444.html\" class=\"profile-page-link\">I LIKe BaNAnaS444</a>"
 	);
 
 var jackieRoostisaurus = new Person(
@@ -140,7 +140,7 @@ var jackieRoostisaurus = new Person(
 	getProperty("jackieRoostisaurus", imgSource),
 	"For humans and meth. I will do anything. One day I shall defeat all my nemesis.",
 	"Dino",
-	"<a href=\"../pages/profilePages/jackieRoostisaurus.html\" class=\"profile-page-link\">Jackie Rootstisaurus</a>"
+	"<a href=\"../pages/jackieRoostisaurus.html\" class=\"profile-page-link\">Jackie Rootstisaurus</a>"
 	);
 
 var jamesSteller = new Person(
@@ -148,7 +148,7 @@ var jamesSteller = new Person(
 	getProperty("jackieRoostisaurus", imgSource),
 	"A movie dirctor for 40 years and I will soon release my first trailer.",
 	"Human",
-	"<a href=\"../pages/profilePages/jamesSteller.html\" class=\"profile-page-link\">James Steller</a>"
+	"<a href=\"../pages/jamesSteller.html\" class=\"profile-page-link\">James Steller</a>"
 	);
 
 var jerryHavleton = new Person(
@@ -156,7 +156,7 @@ var jerryHavleton = new Person(
 	getProperty("jerryHavleton", imgSource),
 	"I like my mushrooms from the forest close by.",
 	"Mushroom",
-	"<a href=\"../pages/profilePages/jerryHavleton.html\" class=\"profile-page-link\">Jerry Havleton</a>"
+	"<a href=\"../pages/jerryHavleton.html\" class=\"profile-page-link\">Jerry Havleton</a>"
 	);
 
 var johosaphatVonJohanus = new Person(
@@ -164,7 +164,7 @@ var johosaphatVonJohanus = new Person(
 	getProperty("johosaphatVonJohanus", imgSource),
 	"One person to rule this world, and it will be me.",
 	"Dutch",
-	"<a href=\"../pages/profilePages/johosaphatVonJohanus.html\" class=\"profile-page-link\">Johosaphat Von Johanus</a>"
+	"<a href=\"../pages/johosaphatVonJohanus.html\" class=\"profile-page-link\">Johosaphat Von Johanus</a>"
 	);
 
 var juan690 = new Person(
@@ -172,7 +172,7 @@ var juan690 = new Person(
 	getProperty("juan690", imgSource),
 	"I will save you, I will save you my love. One day I will save you with all my posers from P",
 	"Puman",
-	"<a href=\"../pages/profilePages/juan690.html\" class=\"profile-page-link\">Juan 690</a>"
+	"<a href=\"../pages/juan690.html\" class=\"profile-page-link\">Juan 690</a>"
 	);
 
 var junior = new Person(
@@ -180,7 +180,7 @@ var junior = new Person(
 	getProperty("junior", imgSource),
 	"My father was an elephant and my mum an ant eater, but I am an octopus. What happened to me ?",
 	"Animal",
-	"<a href=\"../pages/profilePages/junior.html\" class=\"profile-page-link\">Junior</a>"
+	"<a href=\"../pages/junior.html\" class=\"profile-page-link\">Junior</a>"
 	);
 
 var maryJane = new Person(
@@ -188,7 +188,7 @@ var maryJane = new Person(
 	getProperty("maryJane", imgSource),
 	"This world shall know pain. ",
 	"Human",
-	"<a href=\"../pages/profilePages/maryJane.html\" class=\"profile-page-link\">Mary Jane</a>"
+	"<a href=\"../pages/maryJane.html\" class=\"profile-page-link\">Mary Jane</a>"
 	);
 
 var mikoHigurasaki = new Person(
@@ -196,7 +196,7 @@ var mikoHigurasaki = new Person(
 	getProperty("mikoHigurasaki", imgSource),
 	"I am an anime character from Japan and I love Pizza. I love it so much that I wear it on my head.",
 	"Anime",
-	"<a href=\"../pages/profilePages/mikoHigurasaki.html\" class=\"profile-page-link\">Miko Higurasaki</a>"
+	"<a href=\"../pages/mikoHigurasaki.html\" class=\"profile-page-link\">Miko Higurasaki</a>"
 	);
 
 var noLifeDX = new Person(
@@ -204,7 +204,7 @@ var noLifeDX = new Person(
 	getProperty("noLifeDX", imgSource),
 	"I have given all my life for my operation, I hope you like what I have packed here.",
 	"Female",
-	"<a href=\"../pages/profilePages/noLifeDX.html\" class=\"profile-page-link\">No LifeDX</a>"
+	"<a href=\"../pages/noLifeDX.html\" class=\"profile-page-link\">No LifeDX</a>"
 	);
 
 var normanStevenson = new Person(
@@ -212,7 +212,7 @@ var normanStevenson = new Person(
 	getProperty("normanStevenson", imgSource), 
 	"THIS WORLD SHALL FEEL MY WRATH. I AM A PART OF THE KILLERS. JOIN ME IN MY MISSION AND YOU WILL BE SPARED.",
 	"Human",
-	"<a href=\"../pages/profilePages/normanStevenson.html\" class=\"profile-page-link\">Norman Stevenson</a>"
+	"<a href=\"../pages/normanStevenson.html\" class=\"profile-page-link\">Norman Stevenson</a>"
 	)
 
 var oboralWababnanosk = new Person(
@@ -220,7 +220,7 @@ var oboralWababnanosk = new Person(
 	getProperty("oboralWababnanosk", imgSource),
 	"I am the princess of Greenland and the king of England.",
 	"Female",
-	"<a href=\"../pages/profilePages/oboralWababnanosk.html\" class=\"profile-page-link\">Obora Wababnanosk</a>"
+	"<a href=\"../pages/oboralWababnanosk.html\" class=\"profile-page-link\">Obora Wababnanosk</a>"
 	);
 
 var pastorJohn = new Person(
@@ -228,7 +228,7 @@ var pastorJohn = new Person(
 	getProperty("pastorJohn", imgSource),
 	"Praise the lord, Arrrggg",
 	"Human",
-	"<a href=\"../pages/profilePages/pastorJohn.html\" class=\"profile-page-link\">Pastor John</a>"
+	"<a href=\"../pages/pastorJohn.html\" class=\"profile-page-link\">Pastor John</a>"
 	);
 
 var princeEdwardsIV = new Person(
@@ -236,7 +236,7 @@ var princeEdwardsIV = new Person(
 	getProperty("princeEdwardsIV", imgSource),
 	"Once a king now Ihave become the like any other SheetFace, there is really not much I can do with my Sheet addcition.",
 	"Male",
-	"<a href=\"../pages/profilePages/princeEdwardsIV.html\" class=\"profile-page-link\">Prince Edwards IV</a>"
+	"<a href=\"../pages/princeEdwardsIV.html\" class=\"profile-page-link\">Prince Edwards IV</a>"
 	);
 
 var qMalDemar = new Person(
@@ -244,7 +244,7 @@ var qMalDemar = new Person(
 	getProperty("qMalDemar", imgSource),
 	"Wondering if I am a man or a girl with big bossums you perv. I am just a person who pulls your skull and wears it as an armour.",
 	"Female",
-	"<a href=\"../pages/profilePages/qMalDemar.html\" class=\"profile-page-link\">Q'mal Demar</a>"
+	"<a href=\"../pages/qMalDemar.html\" class=\"profile-page-link\">Q'mal Demar</a>"
 	);
 
 var sonic_Mario469970143 = new Person(
@@ -252,7 +252,7 @@ var sonic_Mario469970143 = new Person(
 	getProperty("sonic_Mario469970143", imgSource),
 	"I am a traveller from world to world in search of the best pizza slice. Everyone is invited to join me on my journey.",
 	"Human",
-	"<a href=\"../pages/profilePages/sonic_Mario469970143.html\" class=\"profile-page-link\">Sonic Mario469970143</a>"
+	"<a href=\"../pages/sonic_Mario469970143.html\" class=\"profile-page-link\">Sonic Mario469970143</a>"
 	);	
 
 var sunWukong = new Person(
@@ -260,7 +260,7 @@ var sunWukong = new Person(
 	getProperty("sunWukong", imgSource), 
 	"Born to a Chinese merchant from 12th century I carried Kong Po Chicken from China to USA in my basket while riding my bunny.",
 	"Human",
-	"<a href=\"../pages/profilePages/sunWukong.html\" class=\"profile-page-link\">Sun Wukong</a>"
+	"<a href=\"../pages/sunWukong.html\" class=\"profile-page-link\">Sun Wukong</a>"
 	);
 
 var superpieboy = new Person(
@@ -268,7 +268,7 @@ var superpieboy = new Person(
 	getProperty("superpieboy", imgSource),
 	"Was a part of the pumpking pie one day until Sonic Mario469970143 extracted me using SheetFace.",
 	"Food",
-	"<a href=\"../pages/profilePages/superpieboy.html\" class=\"profile-page-link\">Super Pieboy</a>"
+	"<a href=\"../pages/superpieboy.html\" class=\"profile-page-link\">Super Pieboy</a>"
 	);
 
 var twilightSparkle3840 = new Person(
@@ -276,7 +276,7 @@ var twilightSparkle3840 = new Person(
 	getProperty("twilightSparkle3840", imgSource),
 	"We all love vampires, but do you love a sparkley one ? Of course you do.",
 	"Vampire",
-	"<a href=\"../pages/profilePages/twilightSparkle3840.html\" class=\"profile-page-link\">Twilight Sparkle3840</a>"
+	"<a href=\"../pages/twilightSparkle3840.html\" class=\"profile-page-link\">Twilight Sparkle3840</a>"
 	);
 
 var uG = new Person(
@@ -284,7 +284,7 @@ var uG = new Person(
 	getProperty("uG", imgSource),
 	"I love the Cardashians. I will do anything to be one. Please make me a Cardashian.",
 	"Female",
-	"<a href=\"../pages/profilePages/uG.html\" class=\"profile-page-link\">UG</a>"
+	"<a href=\"../pages/uG.html\" class=\"profile-page-link\">UG</a>"
 	);
 
 var wolfgangSchnitzer = new Person(
@@ -292,7 +292,7 @@ var wolfgangSchnitzer = new Person(
 	getProperty("wolfgangSchnitzer", imgSource),
 	"A German who loves BMW and smokes everything I can. I like to burn and see things rott. But nothing is rotting lately.",
 	"Human",
-	"<a href=\"../pages/profilePages/wolfgangSchnitzer.html\" class=\"profile-page-link\">Wolfgang Schnitzer</a>"
+	"<a href=\"../pages/wolfgangSchnitzer.html\" class=\"profile-page-link\">Wolfgang Schnitzer</a>"
 	);
 
 var xinZhuLao = new Person(
@@ -300,7 +300,7 @@ var xinZhuLao = new Person(
 	getProperty("xinZhuLao", imgSource),
 	"6 feet tall, red eyes, brown hair, 36, 42, 36. Toronto , Hong Kong and Dallas.",
 	"Female",
-	"<a href=\"../pages/profilePages/xinZhuLao.html\" class=\"profile-page-link\">Xin ZhuLao</a>"
+	"<a href=\"../pages/xinZhuLao.html\" class=\"profile-page-link\">Xin ZhuLao</a>"
 	);
 
 var xxX_Deathstalker_XxX = new Person(
@@ -308,7 +308,7 @@ var xxX_Deathstalker_XxX = new Person(
 	getProperty("xxX_Deathstalker_XxX", imgSource),
 	"DEATH, I WILL KILL ALL THOSE WHO EVEN READ THIS. YOU SHALL NOT EXCAPE ME EYES.",
 	"Killer",
-	"<a href=\"../pages/profilePages/xxX_Deathstalker_XxX.html\" class=\"profile-page-link\">xxX_Deathstalker_XxX</a>"
+	"<a href=\"../pages/xxX_Deathstalker_XxX.html\" class=\"profile-page-link\">xxX_Deathstalker_XxX</a>"
 	);
 
 var xxX_Pyromasterz_XxX = new Person(
@@ -316,7 +316,7 @@ var xxX_Pyromasterz_XxX = new Person(
 	getProperty("xxX_Pyromasterz_XxX", imgSource),
 	"Was an accident and now I have made many accidents.",
 	"Human",
-	"<a href=\"../pages/profilePages/xxX_Pyromasterz_XxX.html\" class=\"profile-page-link\">xxX_Pyromasterz_XxX</a>"
+	"<a href=\"../pages/xxX_Pyromasterz_XxX.html\" class=\"profile-page-link\">xxX_Pyromasterz_XxX</a>"
 	);
 
 var zeroxDaniel = new Person(
@@ -324,7 +324,7 @@ var zeroxDaniel = new Person(
 	getProperty("zeroxDaniel", imgSource),
 	"Well one of my father is Goat and the other was a Zerox machine. I always wondered how my fathers got me in color.",
 	"Animal",
-	"<a href=\"../pages/profilePages/zeroxDaniel.html\" class=\"profile-page-link\">Zerox Daniel</a>"
+	"<a href=\"../pages/zeroxDaniel.html\" class=\"profile-page-link\">Zerox Daniel</a>"
 	);
 
 

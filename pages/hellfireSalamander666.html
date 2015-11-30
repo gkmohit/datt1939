@@ -7,18 +7,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<title>SheetFace Profile - Hellfire Salamnder666</title>
-	<link rel="icon" type="image/png" href="../../img/favicon-32x32.png" sizes="32x32" /> 
-	<!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
+	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../../css/custom.css" type="text/css">
+    <link rel="stylesheet" href="../css/custom.css" type="text/css">
+    <style type="text/css">
+        /*.row [class*="col-"]{
+            margin-bottom: -99999px;
+            padding-bottom: 99999px;
+        }*/
+    </style>
 </head>
+
 <body id="page-top">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -32,7 +39,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="../login.html"><i class="fa fa-home"></i> Home</a>
+                        <a href="login.html"><i class="fa fa-home"></i> Home</a>
                     </li>
                     <li>
                         <a href="#services"><i class="fa fa-inbox"></i> Messages</a>
@@ -57,34 +64,34 @@
         <!-- Title row -->
         <div class="row">
             <div class="col-lg-3 user-picture-col" style="background-color:lavender;" >
-              <img src="../../img/placeholder.png" class="user-profile-picture">
+              <img src="../img/placeholder.png" class="user-profile-picture">
             </div>
             <div class="col-lg-5 user-details-col" style="background-color:lavenderblush;">
-            	<!-- fullName, profilePic, bio, species, linkText -->
-            	<h2>Full Name : </h2>
-            	<div class="full-name-div">
-            		Full name goes here.
-            	</div>
-				<br/>
-            	<hr>
-            	<h2>Species : </h2>
-            	<div class="species-div">
-            		Species goes here.
-            	</div>
-            	<br/>
-            	<hr>
-            	<h2>Bio : </h2>
-            	<div class="bio-div">
-					Bio goes here
-            	</div>
-            	<hr>
-            	
+                <!-- fullName, profilePic, bio, species, linkText -->
+                <h4>Full Name : </h4>
+                <div class="full-name-div">
+                    Full name goes here.
+                </div>
+                <br/>
+                <hr>
+                <h4>Species : </h4>
+                <div class="species-div">
+                    Species goes here.
+                </div>
+                <br/>
+                <hr>
+                <h4>Bio : </h4>
+                <div class="bio-div">
+                    Bio goes here
+                </div>
+                <hr>
+                
             </div>
             <div class="col-lg-4 recent-updates-col" style="background-color:lavender;" >
-            	<h3>Recent updates from friends</h3>
-            	<!-- Item 1 -->
-            	<div class="container news-feed-item">
-                    <img class="placeholder-img profile-picture" src="../../img/placeholder.png">
+                <h3>Recent updates from friends</h3>
+                <!-- Item 1 -->
+                <div class="container news-feed-item">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
                     <div class="person-update-div">
                         <h5 class="person-name"><a href="#">Person name goes here</a></h5>
                         <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
@@ -92,7 +99,7 @@
                 </div>
                 <!-- Item 2 -->
                 <div class="container news-feed-item">
-                    <img class="placeholder-img profile-picture" src="../../img/placeholder.png">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
                     <div class="person-update-div">
                         <h5 class="person-name"><a href="#">Person name goes here</a></h5>
                         <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
@@ -100,7 +107,7 @@
                 </div>
                 <!-- Item 3 -->
                 <div class="container news-feed-item">
-                    <img class="placeholder-img profile-picture" src="../../img/placeholder.png">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
                     <div class="person-update-div">
                         <h5 class="person-name"><a href="#">Person name goes here</a></h5>
                         <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
@@ -108,7 +115,7 @@
                 </div>
                 <!-- Item 4 -->
                 <div class="container news-feed-item">
-                    <img class="placeholder-img profile-picture" src="../../img/placeholder.png">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
                     <div class="person-update-div">
                         <h5 class="person-name"><a href="#">Person name goes here</a></h5>
                         <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
@@ -123,5 +130,24 @@
     <script src="../js/staticFunctions.js"></script>
     <script src="../js/userInfo.js"></script>
     <script src="../js/login.js"></script>
+    <script type="text/javascript">
+        
+        var personNameHeading = document.getElementsByClassName("user-name-heading");
+        var userProfilePicture = document.getElementsByClassName("user-profile-picture");
+        var fullNameDiv = document.getElementsByClassName("full-name-div");
+        var speciesDiv = document.getElementsByClassName("species-div");
+        var bioDiv = document.getElementsByClassName("bio-div");
+
+        // function changeInnerHTML(domElement, innerHtmlString )
+        personNameHeading[0].innerHTML = "<h1>" + hellfireSalamander666.fullName + "</h1>";
+        fullNameDiv[0].innerHTML = "<h3>" + hellfireSalamander666.fullName + "</h3>";
+        speciesDiv[0].innerHTML = "<h3>" + hellfireSalamander666.species + "</h3>";
+        bioDiv[0].innerHTML = "<h3>" + hellfireSalamander666.bio + "</h3>";
+        userProfilePicture[0].src = hellfireSalamander666.profilePic;
+    </script>
 </body>
 </html>
+
+
+
+
