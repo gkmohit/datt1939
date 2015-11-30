@@ -515,6 +515,19 @@ body {
     height: 96px;
 }
 
+.profile-page-link{
+    font-weight: bold;
+}
+
+.profile-page-link:active{
+    color: #C68E40;
+}
+
+.profile-page-link:hover{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
 /*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
@@ -529,5 +542,30 @@ body {
 .current-weather-item{
     width: 100%;
 }
+
+/**************
+*Profile Pages*
+***************/
+
+.user-profile-picture{
+    height: 400px;
+    width: 300px;
+    margin: 5px 5px 5px 0px;
+}
+
+.user-picture-col{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.user-details-col{
+    vertical-align: middle;
+}
+
+
+
+
+
+
 
 

@@ -19,9 +19,10 @@ function rerunFunction() {
 		//random number from 0 to length of the statusArray
 		var randomStatusNum = randInt(0, statusArray.length );
 		var randomUserNum = randInt(0, statusArray.length -1);
-		// alert(personStatus[i].innerHTML);
+
+		//Calling the above functions to change person name, person status and profile picture.
 		changeInnerHTML(personStatus[i], statusArray[randomStatusNum]);
-		changeInnerHTML(personName[i], usersArray[randomUserNum].fullName);
+		changeInnerHTML(personName[i], usersArray[randomUserNum].linkText);
 		changeImgSource(profilePicture[i], usersArray[randomUserNum].profilePic)
 	}
 }
