@@ -19,8 +19,9 @@ function rerunFunction() {
 }
 
 
-
+setBackground();
 rerunFunction();
 window.setInterval(function(){
   rerunFunction();
+  setBackground();
 }, 15000);

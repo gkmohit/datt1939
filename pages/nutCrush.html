@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
  	<meta charset="utf-8">
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	<title>SheetFace Game Edge</title>
+	<title>SheetFace Game Nut Crush</title>
 	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
 	<!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
@@ -23,6 +23,7 @@
 			margin-bottom: -99999px;
 			padding-bottom: 99999px;
         }
+
     </style>
 </head>
 
@@ -64,45 +65,22 @@
     </nav>
     <br>
     <br>
-        <!-- /.container-fluid -->
-        <div class="container-fluid">
-        <h1 class="user-name-heading" >CHOOSE WISELY, FOR YOU MIGHT WIN OR LOOSE EVERYTHING.</h1>
-        <!-- Title row -->
-        <div class="row">
-            <div class="col-lg-6 game-col">
-                <a href="nutCrush.html">
-                    <img src="../img/game1Tile.png">
-                </a>
-            </div>
-            <div class="col-lg-6 game-col" >
-                <a href="#">
-                    <img src="../img/game2Tile.png">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 game-col" >
-                <a href="humanVsMachine.html">
-                    <img src="../img/game3Tile.png">
-                </a>
-            </div>
-            <div class="col-lg-6 game-col">
-                <a href="potatoe.html">
-                    <img src="../img/game4Tile.png">
-                </a>
-            </div>
-        </div>
-    
+    <!-- Put the game here -->
+    <div class="container nut-crush-container">
+    	<h2 class="welcomeHeader">Welcome Nut Crush.</h2>
+	    <p id="gameIntro">Please click on the below nut to check your reactions</p>
+	    <p id="stopPara">Click here to stop : <button class="btn  btn-primary btn-xl" id="stopButton">Stop</button></p>
+	    <p id="reactionValue"></p>
+	    <br/>
+    </div>
+    <img id="box" src = "../img/nut.png"/>
     <br/>
     <br/>
 <script src="../js/staticStringArrays.js"></script>
     <script src="../js/staticFunctions.js"></script>
     <script src="../js/userInfo.js"></script>
     <script src="../js/login.js"></script>
-    <script type="text/javascript">
-        var gameTitle = document.getElementsByClassName("game-title-div");
-
-    </script>
+    <script src="../js/nutCrush.js"></script>
 </body>
 </html>
 

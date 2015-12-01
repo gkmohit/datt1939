@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	<title>SheetFace Game Edge</title>
+	<title>SheetFace Game Beat the Computer</title>
 	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
 	<!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
@@ -19,9 +19,31 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/custom.css" type="text/css">
     <style type="text/css">
-		.row [class*="col-"]{
-			margin-bottom: -99999px;
-			padding-bottom: 99999px;
+        * {
+          text-align: center;
+        }
+        button {
+          background-color: rgb(82, 186, 179);
+          border-radius: 6px;
+          border: none;
+          color: rgb(255, 255, 255);
+          padding: 10px;
+          text-transform: uppercase;
+          width: 200px;
+          cursor: pointer;
+        }
+        #placeholder {
+          height: 100px;
+          width: 100px;
+          padding: 50px;
+          margin: 50px auto;
+          border: 1px solid gray;
+          border-radius: 10px;  
+          font-size:80px;
+        }
+        .container{
+            text-align: center;
+            background-color: #000;
         }
     </style>
 </head>
@@ -64,44 +86,20 @@
     </nav>
     <br>
     <br>
-        <!-- /.container-fluid -->
-        <div class="container-fluid">
-        <h1 class="user-name-heading" >CHOOSE WISELY, FOR YOU MIGHT WIN OR LOOSE EVERYTHING.</h1>
-        <!-- Title row -->
-        <div class="row">
-            <div class="col-lg-6 game-col">
-                <a href="nutCrush.html">
-                    <img src="../img/game1Tile.png">
-                </a>
-            </div>
-            <div class="col-lg-6 game-col" >
-                <a href="#">
-                    <img src="../img/game2Tile.png">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 game-col" >
-                <a href="humanVsMachine.html">
-                    <img src="../img/game3Tile.png">
-                </a>
-            </div>
-            <div class="col-lg-6 game-col">
-                <a href="potatoe.html">
-                    <img src="../img/game4Tile.png">
-                </a>
-            </div>
-        </div>
+    <div class="container">
+        <p id="placeholder">
+  
+        </p>
+        <button id="button" class="btn btn-danger btn-xl">Roll Dice</button>
+    </div>
     
     <br/>
     <br/>
 <script src="../js/staticStringArrays.js"></script>
     <script src="../js/staticFunctions.js"></script>
     <script src="../js/userInfo.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/humanVsMachine.js"></script>
     <script type="text/javascript">
-        var gameTitle = document.getElementsByClassName("game-title-div");
-
     </script>
 </body>
 </html>

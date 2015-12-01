@@ -33,3 +33,10 @@ function Person(fullName, profilePic, bio, species, linkText){
 	this.species = species;
 	this.linkText = linkText;
 };
+
+function setBackground(){
+    var randNum = randInt(0, colorWheel.length - 1);
+    var color = colorWheel[randNum];
+    document.body.style.backgroundColor = color;
+    
+}

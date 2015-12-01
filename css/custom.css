@@ -433,7 +433,7 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
-    background-image: url("../img/background.png");
+/*    background-image: url("../img/background.png");*/
 }
 
 /*SheetFace logo of Sheet text*/
@@ -480,7 +480,6 @@ body {
 
 /*TRENDING NEWS SECTION*/
 #trending-news{
-    background-color:lavender;
     overflow:hidden;
     float: left;
 }
@@ -490,7 +489,6 @@ body {
 
 /*NEWS FEED*/
 #news-feed{
-    background-color:lavenderblush;
     height: 650px;
     overflow-y: scroll;
 }
@@ -534,9 +532,10 @@ body {
   padding-bottom: 99999px;
 }*/
 
+
+
 /*CURRENT WEATHER*/
 #current-weather{
-    background-color:lavender;
     float: right;
     overflow:hidden;
 }
@@ -561,6 +560,7 @@ body {
 
 .user-details-col{
     vertical-align: middle;
+    border-right : solid 1px black;
 }
 
 .recent-updates-col{
@@ -576,7 +576,56 @@ body {
     height: 250px;
     width: 400px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
+
+
+
+
+
+
+
+/**************
+*Nut Crush Page*
+***************/
+#box{
+    height: 90px;
+    width: 90px;
+    display: none;
+    position: relative;
+}
+
+#gameIntro{
+    color: white;
+}
+
+#reactionValue{
+    color: white;
+    display: none;   
+}
+
+#boxApperance{
+    color: white;
+    display: none;
+}
+
+#stopPara{
+    color: white;
+    display: none;
+}
+
+.nut-crush-container{
+
+}
+
+
+
+
+
+
+
 
 
 
