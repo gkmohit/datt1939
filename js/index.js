@@ -12,7 +12,7 @@ var wrongLoginText = document.getElementById("wrongLoginText");
 var validateLogin = function(){
 	
 	
-    var newUrl = ("./pages/logIn.html");
+    var newUrl = ("./pages/login.html");
 
 	//Chceking if the username and password are correct.
     if( userName.value.match(USERNAME_REG) && password.value.match(PASSWORD_REG)){
