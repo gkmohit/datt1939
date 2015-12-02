@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>SheetFace Profile - Adam McDonald</title>
+	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+	<!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css" type="text/css">
+    <style type="text/css">
+		/*.row [class*="col-"]{
+			margin-bottom: -99999px;
+			padding-bottom: 99999px;
+		}*/
+        .row [class*="col-"]{
+            background: #f0f0f0;
+        }
+        .container{
+            text-align: center;;
+        }
+        .article-body{
+            color: #FFED9D;
+            font-size: 1.3em;
+            margin: 5px;
+            padding: 5px;
+        }
+        .article-header{
+            font-weight: bold;
+            color: #FFF;
+        }
+        .article-image{
+            height: 181px;
+            width: 300px;
+        }
+        .quotes{
+            font-weight: bold;;
+            color: #FFF;
+        }
+    </style> 
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand " href="../index.html"><span class="sheetText">sheet</span><span class="faceText">Face</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="login.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="#services"><i class="fa fa-inbox"></i> Messages</a>
+                    </li>
+                    <li>
+                        <a href="./gameList.html"><i class="fa fa-gamepad"></i> Games</a>
+                    </li>
+                    <li>
+                        <a href="#about"><i class="fa fa-external-link"></i> About</a>
+                    </li>
+                    <!-- 
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <br>
+    <br>
+
+        <!-- /.container-fluid -->
+        <div class="container-fluid">
+            <h1 class="article-header">Enter Article Name Here</h1>
+            <div class="container">
+                <p class="article-body">
+                    Ella DeStingy takes Lead in Straight Pride Parade
+                    An estimate of 100 people walked and danced celebrating Straight Pride Parade yesterday. The masses were lead but popular figure Ella DeStingy.  Ella DeStingy recently went into the closet which took the world and her fans by storm.  “I was born straight and it was about time that the world started to accept us straight people, we are human too.” stated Ella during her last interview. 
+                    Apart from leading the parade Ella also funded a lot towards it, such as investing millions to design the Straight Pride flag. She said “There was a need for a symbol, to unite us all, a sigh of hope to lift our spirits and bring joy to all.” (image below)
+                </p>
+                <img src="../img/placeholder.png" class="article-image">
+                <p class="article-body">
+                    The much looked forward to event can to an end with a display of gray scaled fireworks. Many were involved and all too back memories to remember for a life time.
+                </p>
+                <p class="article-body quotes">
+                    “This was one of the best Straight Pride Parades I have every been a part of !” – Anonymous 
+                    <br>
+                    “The flag stole the show! Just phenomenal and full of life !” - Anonymous
+                    <br>
+                    “Can wait for next year, People will come back wanting more !” – Toronto Moon
+                </p>
+            </div>
+        </div>
+        
+    <br/>
+    <br/>
+    <script src="../js/staticStringArrays.js"></script>
+    <script src="../js/staticFunctions.js"></script>
+    <script src="../js/userInfo.js"></script>
+    <script src="../js/articles.js"></script>
+    <script src="../js/login.js"></script>
+    <script type="text/javascript">
+        
+        // function NewsItem(title, shortBody, trendingImage, linkText){
+        // this.title = title;
+        // this.shortBody = shortBody;
+        // this.trendingImage = trendingImage;
+        // this.linkText = linkText;
+        // };
+    	var articleHeader = document.getElementsByClassName("article-header");
+        var articleImage = document.getElementsByClassName("article-image");
+
+		// function changeInnerHTML(domElement, innerHtmlString )
+		articleHeader[0].innerHTML = "<h1>" + straightParade.title + "</h1>";
+        articleImage[0].src = straightParade.trendingImage;
+		// fullNameDiv[0].innerHTML = "<h3>" + adamMcDonald.fullName + "</h3>";
+		// speciesDiv[0].innerHTML = "<h3>" + adamMcDonald.species + "</h3>";
+		// bioDiv[0].innerHTML = "<h3>" + adamMcDonald.bio + "</h3>";
+        //userProfilePicture[0].src = adamMcDonald.profilePic;
+    </script>
+</body>
+</html>
+
+
+
+

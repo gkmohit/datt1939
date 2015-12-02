@@ -34,6 +34,22 @@ function Person(fullName, profilePic, bio, species, linkText){
 	this.linkText = linkText;
 };
 
+// <div class="container trending-news-item">
+//     <img class="placeholder-img trending-news-img" src="../img/placeholder.png">
+//     <div class="news-update-div">
+//         <h4 class="trending-news-title"><a href="#">TRENDING TILE GOES HERE</a></h4>
+//         <p class="trending-news-body-short">With some words here.</p>
+//     </div>
+// </div>
+//My constructor for the article class
+function NewsItem(title, shortBody, trendingImage, linkText){
+	this.title = title;
+	this.shortBody = shortBody;
+	this.trendingImage = trendingImage;
+	this.linkText = linkText;
+};
+
+
 function setBackground(){
     var randNum = randInt(0, colorWheel.length - 1);
     var color = colorWheel[randNum];

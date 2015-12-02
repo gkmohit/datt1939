@@ -485,8 +485,13 @@ body {
 }
 .trending-news-item{
     width: 100%;
+    border-bottom: 1px solid black;
 }
 
+.trending-news-img{
+    width: 96px;
+    height: 96px;
+}
 /*NEWS FEED*/
 #news-feed{
     height: 650px;
