@@ -33,17 +33,44 @@
           cursor: pointer;
         }
         #placeholder {
-          height: 100px;
-          width: 100px;
-          padding: 50px;
-          margin: 50px auto;
-          border: 1px solid gray;
-          border-radius: 10px;  
-          font-size:80px;
+            color: #fff;
+            padding-top: 30px;
+            font-size: 2em;
         }
         .container{
             text-align: center;
-            background-color: #000;
+        }
+        #guessButton{
+            margin: 10px;
+        }
+        #userGuess{
+            width: 20%;
+        }
+        .hints{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: #fafafa;
+            text-transform: uppercase;
+            display: none;
+        }
+        a:visited{
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover{
+            color: #fff;
+        }
+        a{
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #DDD;
+        }
+        .fa-heart{
+            color: #f33;
+        }
+        .lives-remaining{
+            color: #fff;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -87,10 +114,24 @@
     <br>
     <br>
     <div class="container">
-        <p id="placeholder">
-  
+        <p>
+          <h1>GUESS THE NUMBER CHOOSEN BY THE COMPUTER.</h1>  
         </p>
-        <button id="button" class="btn btn-danger btn-xl">Roll Dice</button>
+        <p class="lives-remaining">
+            LIVES REMAINING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-heart"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-heart"></i>
+        </p>
+        <form class="form-inline">
+            <input type="input" class="form-control" id="userGuess" maxlength="4" placeholder="Enter your guess here."/>    
+            <button id="guessButton" class="btn btn-danger btn-xl">Guess</button>
+            <a id="hintButton" href="#">Hint ?</a>
+        </form>
+        <p class="hints">
+            Hint goes here.
+            <!-- Another hint goes here.
+            Another hint goes here. -->
+        </p>
+        <p id="placeholder">
+        </p>
     </div>
     
     <br/>
