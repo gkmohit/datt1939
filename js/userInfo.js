@@ -227,7 +227,7 @@ var pastorJohn = new Person(
 	"Pastor John",
 	getProperty("pastorJohn", imgSource),
 	"Praise the lord, Arrrggg",
-	"Human",
+	"Pirate",
 	"<a href=\"../pages/pastorJohn.html\" class=\"profile-page-link\">Pastor John</a>"
 	);
 
