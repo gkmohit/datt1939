@@ -532,6 +532,7 @@ body {
     font-size: 1.2em;
 }
 
+
 /*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
@@ -540,12 +541,15 @@ body {
 
 
 /*CURRENT WEATHER*/
-#current-weather{
+#game-list{
     float: right;
     overflow:hidden;
 }
-.current-weather-item{
-    width: 100%;
+
+
+.game-list-image{
+    max-width:100%;
+    max-height:100%;   
 }
 
 /**************
@@ -584,11 +588,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
 
 
 

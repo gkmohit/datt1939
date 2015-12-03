@@ -61,7 +61,9 @@ var imgSource = {
 	"xxX_Deathstalker_XxX" : "../img/ProfilePictures/XxX_Deathstalker_XxX.jpg",
 	"xxX_Pyromasterz_XxX" : "../img/ProfilePictures/XxX_Pyromasterz_XxX.jpg",
 	"zeroxDaniel" : "../img/ProfilePictures/ZeroxDaniel.jpg",
-	"paradeFlag" : "../img/paradeFlag.png"
+	"paradeFlag" : "../img/paradeFlag.png",
+	"cardashian" : "../img/paradeFlag.png",
+	"jackie" : "../img/paradeFlag.png"
 
 };
 
