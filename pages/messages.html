@@ -29,10 +29,15 @@
             height:100%;
         }
 
+        .container{
+            max-width: 100%;
+        }
+
         @media (min-width: 768px){
             #messages-col {
                 position: absolute;
                 left: 0;
+                overflow: hidden;
                 overflow-y: scroll; 
             }
 
@@ -46,11 +51,11 @@
         #messages-col {
             background-color: #FFF;
             text-align: center;
-            height:90%;
+            height:100%;
         }
 
         #users-col {
-            height:90%;
+            height:100%;
             background-color: #FFF;
             text-align: center;
         }
@@ -64,6 +69,17 @@
             color: #000;
             float: left;
             padding-top: 20px;
+        }
+
+        .message-item{
+            border-bottom: solid 1px black;
+            line-height: 1px;
+        }
+
+        .time-text{
+            float: right;
+            font-size: 0.6em;
+            margin-top: -10px;
         }
     </style>
 </head>
@@ -108,12 +124,7 @@
     <div class="container-fluid">
         <!-- Title row -->
         <div class="row">
-            <div class="col-lg-4">
-              <h3>TRENDING NEWS</h3>
-            </div>
-            <div class="col-lg-8">
-              <h3>NEWS FEED</h3>
-            </div>
+            
         </div>
         <!-- Row one -->
         <div class="row">
@@ -176,7 +187,38 @@
                 </div>
             </div>   
             <div class="col-lg-8" id="users-col">
-                <p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p>
+                <div class="container message-item">
+                    <p class="message-text">
+                        Person name goes here
+                    </p>
+                    <p class="time-text">
+                        Time goes here
+                    </p>
+                </div>
+                <div class="container message-item">
+                    <p class="message-text">
+                        Person name goes here
+                    </p>
+                    <p class="time-text">
+                        Time goes here
+                    </p>
+                </div>
+                <div class="container message-item">
+                    <p class="message-text">
+                        Person name goes here
+                    </p>
+                    <p class="time-text">
+                        Time goes here
+                    </p>
+                </div>
+                <div class="container message-item">
+                    <p class="message-text">
+                        Person name goes here
+                    </p>
+                    <p class="time-text">
+                        Time goes here
+                    </p>
+                </div>
             </div>
         </div>
     <!-- Custom JavaScript -->
@@ -185,6 +227,7 @@
     <script src="../js/userInfo.js"></script>
     <script src="../js/articles.js"></script>
     <script src="../js/login.js"></script>
+    <script src="../js/messages.js"></script>
 
 </body>
 
