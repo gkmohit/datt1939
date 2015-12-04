@@ -21,7 +21,7 @@ for(var i = 0; i < messageText.length ; i++) {
 	// d.getHours(); // => 9
 	// d.getMinutes(); // =>  30
 	// d.getSeconds(); // => 51
-	timeText[i].innerHTML = d.getHours() + ":" + d.getMinutes();
+	timeText[i].innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 	//Calling the above functions to change person name, person status and profile picture.
 	// changeInnerHTML(friendName[i], usersArray[randomUserNum].linkText);
 	// changeImgSource(profilePicture[i], usersArray[randomUserNum].profilePic);
@@ -31,5 +31,7 @@ for(var i = 0; i < messageText.length ; i++) {
 	// else{
 	// 	messageText[i].style.textAlign = "right";	
 	// }
+	changeInnerHTML(messageText[i], sentenceCreater(20));
+	
 
 }

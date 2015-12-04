@@ -50,9 +50,39 @@ function NewsItem(title, shortBody, trendingImage, linkText){
 };
 
 
+//Sets the background of the whole page.
 function setBackground(){
     var randNum = randInt(0, colorWheel.length - 1);
     var color = colorWheel[randNum];
     document.body.style.backgroundColor = color;
     
 }
+
+
+
+//Creates a sentence from the words given
+function sentenceCreater(upperLimit){
+	var wordCount = randInt(5, upperLimit);
+	var returnVal = "";
+	for(var i = 0; i < wordCount; i++){
+		var wordsArrayIndexRand = randInt(1, wordsArray.length);
+		returnVal = returnVal+ " " + wordsArray[wordsArrayIndexRand]
+	}
+	return returnVal;
+}
+
+
+
+//Function to add sentences to status array
+function arrayPush(){
+	for(var i = 0; i < 1000; i++){
+		var randomWordCount = randInt(5, 20);
+		var sentence = sentenceCreater(randomWordCount);
+		statusArray.push(sentence);
+	}
+}
+
+
+
+
+

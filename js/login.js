@@ -38,10 +38,10 @@ function rerunFunction() {
 	}
 }
 
-
+arrayPush();
 setBackground();
 rerunFunction();
 window.setInterval(function(){
   rerunFunction();
   setBackground();
-}, 15000);
+}, 35000);
