@@ -23,8 +23,47 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/custom.css" type="text/css">
     <style type="text/css">
-        .row [class*="col-"]{
-            background: #fff;
+        body, html {
+            margin: 0;
+            overflow: hidden;
+            height:100%;
+        }
+
+        @media (min-width: 768px){
+            #messages-col {
+                position: absolute;
+                left: 0;
+                overflow-y: scroll; 
+            }
+
+            #users-col {
+                position: absolute;
+                right: 0;
+                overflow-y: scroll;
+            }
+        }
+
+        #messages-col {
+            background-color: #FFF;
+            text-align: center;
+            height:90%;
+        }
+
+        #users-col {
+            height:90%;
+            background-color: #FFF;
+            text-align: center;
+        }
+
+        .profile-picture{
+            width: 60px;
+            height: 60px;
+        }
+
+        .friend-name{
+            color: #000;
+            float: left;
+            padding-top: 20px;
         }
     </style>
 </head>
@@ -42,7 +81,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <a href="./login.html"><i class="fa fa-home"></i> Home</a>
                     </li>
                     <li>
                         <a href="./messages.html"><i class="fa fa-inbox"></i> Messages</a>
@@ -69,117 +108,75 @@
     <div class="container-fluid">
         <!-- Title row -->
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-4">
               <h3>TRENDING NEWS</h3>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-8">
               <h3>NEWS FEED</h3>
-            </div>
-            <div class="col-lg-3">
-              <h3>Games</h3>
             </div>
         </div>
         <!-- Row one -->
         <div class="row">
-        <!-- Trending news -->
-            <div class="col-lg-3"  id="trending-news">
-                <div class="container trending-news-item">
-                    <img class="placeholder-img trending-news-img" src="../img/placeholder.png">
-                    <div class="news-update-div">
-                        <h4 class="trending-news-title"><a href="#">TRENDING TILE GOES HERE</a></h4>
-                        <p class="trending-news-body-short">With some words here.</p>
-                    </div>
-                </div>
-                <div class="container trending-news-item">
-                    <img class="placeholder-img trending-news-img" src="../img/placeholder.png">
-                    <div class="news-update-div">
-                        <h4 class="trending-news-title"><a href="#">TRENDING TILE GOES HERE</a></h4>
-                        <p class="trending-news-body-short">With some words here.</p>
-                    </div>
-                </div>
-                <div class="container trending-news-item">
-                    <img class="placeholder-img trending-news-img" src="../img/placeholder.png">
-                    <div class="news-update-div">
-                        <h4 class="trending-news-title"><a href="#">TRENDING TILE GOES HERE</a></h4>
-                        <p class="trending-news-body-short">With some words here.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- News Feed -->
-            <div class="col-lg-6" id="news-feed">
-                <!-- Item 1 -->
-                <div class="container news-feed-item">
+            <div class="col-lg-4" id="messages-col">
+                <!-- Person 1 -->
+                <div class="container friend-item">
                     <img class="placeholder-img profile-picture" src="../img/placeholder.png">
-                    <div class="person-update-div">
-                        <h5 class="person-name"><a href="#">Person name goes here</a></h5>
-                        <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
-                        <span><i class="fa fa-thumbs-o-up"></i> Like &nbsp;&nbsp;&nbsp;<i class="fa fa-comments-o"> Comment</i>&nbsp;&nbsp;&nbsp;<i class="fa fa-share-alt"> Share</i></span>   
-                    </div>
-                    <input type="text" maxlength="150" class="comment-text-box" placeholder="Write your comment here if you want.">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <!-- item 2 -->
-                <div class="container news-feed-item">
+                <!-- Person 2 -->
+                <div class="container friend-item">
                     <img class="placeholder-img profile-picture" src="../img/placeholder.png">
-                    <div class="person-update-div">
-                        <h5 class="person-name"><a href="#">Person name goes here</a></h5>
-                        <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
-                        <span><i class="fa fa-thumbs-o-up"></i> Like &nbsp;&nbsp;&nbsp;<i class="fa fa-comments-o"> Comment</i>&nbsp;&nbsp;&nbsp;<i class="fa fa-share-alt"> Share</i></span>   
-                    </div>
-                    <input type="text" maxlength="150" class="comment-text-box" placeholder="Write your comment here if you want.">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <!-- Item 3 -->
-                <div class="container news-feed-item">
+                <!-- Person 3 -->
+                <div class="container friend-item">
                     <img class="placeholder-img profile-picture" src="../img/placeholder.png">
-                    <div class="person-update-div">
-                        <h5 class="person-name"><a href="#">Person name goes here</a></h5>
-                        <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
-                        <span><i class="fa fa-thumbs-o-up"></i> Like &nbsp;&nbsp;&nbsp;<i class="fa fa-comments-o"> Comment</i>&nbsp;&nbsp;&nbsp;<i class="fa fa-share-alt"> Share</i></span>   
-                    </div>
-                    <input type="text" maxlength="150" class="comment-text-box" placeholder="Write your comment here if you want.">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <!-- Item 4 -->
-                <div class="container news-feed-item">
+                <!-- Person 4 -->
+                <div class="container friend-item">
                     <img class="placeholder-img profile-picture" src="../img/placeholder.png">
-                    <div class="person-update-div">
-                        <h5 class="person-name"><a href="#">Person name goes here</a></h5>
-                        <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
-                        <span><i class="fa fa-thumbs-o-up"></i> Like &nbsp;&nbsp;&nbsp;<i class="fa fa-comments-o"> Comment</i>&nbsp;&nbsp;&nbsp;<i class="fa fa-share-alt"> Share</i></span>   
-                    </div>
-                    <input type="text" maxlength="150" class="comment-text-box" placeholder="Write your comment here if you want.">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <!-- Item 5 -->
-                <div class="container news-feed-item">
+                <!-- Person 5 -->
+                <div class="container friend-item">
                     <img class="placeholder-img profile-picture" src="../img/placeholder.png">
-                    <div class="person-update-div">
-                        <h5 class="person-name"><a href="#">Person name goes here</a></h5>
-                        <p class="person-status">The persons status goes here. The persons status goes here. The persons status goes here. </p>
-                        <span><i class="fa fa-thumbs-o-up"></i> Like &nbsp;&nbsp;&nbsp;<i class="fa fa-comments-o"> Comment</i>&nbsp;&nbsp;&nbsp;<i class="fa fa-share-alt"> Share</i></span>   
-                    </div>
-                    <input type="text" maxlength="150" class="comment-text-box" placeholder="Write your comment here if you want.">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-            </div>
-            <!-- Local news and stuff -->
-            <div class="col-lg-3" id="game-list">
-                <div class="game-list-item">
-                    <a href="nutCrush.html">
-                        <img src="../img/game1Tile.png" class="game-list-image">
-                    </a>
+                <!-- Person 6 -->
+                <div class="container friend-item">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <div class="game-list-item">
-                    <a href="#">
-                        <img src="../img/game2Tile.png" class="game-list-image">
-                    </a>
+                <!-- Person 7 -->
+                <div class="container friend-item">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <div class="game-list-item">
-                    <a href="humanVsMachine.html">
-                        <img src="../img/game3Tile.png" class="game-list-image">
-                    </a>
+                <!-- Person 8 -->
+                <div class="container friend-item">
+                    <img class="placeholder-img profile-picture" src="../img/placeholder.png">
+                    <h4 class="friend-name">
+                        <a href="#">Person name goes here</a>
+                    </h4>
                 </div>
-                <div class="game-list-item">
-                    <a href="potatoe.html">
-                        <img src="../img/game4Tile.png" class="game-list-image">
-                    </a>
-                </div>
+            </div>   
+            <div class="col-lg-8" id="users-col">
+                <p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p><p>Right contents</p>
             </div>
         </div>
     <!-- Custom JavaScript -->

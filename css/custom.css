@@ -492,6 +492,10 @@ body {
     width: 96px;
     height: 96px;
 }
+
+.heading-col{
+    text-align: center;
+}
 /*NEWS FEED*/
 #news-feed{
     height: 650px;
@@ -532,7 +536,16 @@ body {
     font-size: 1.2em;
 }
 
+#userStatus{
+    padding: 10px;
+    margin-top: 10px;
+}
 
+#shareButton{
+    float: right;
+    margin: 5px;
+    margin-top: 25px;
+}
 /*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
@@ -625,15 +638,12 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
+/**************
+*Messages Page*
+**************/
+.friend-item{
+    border-bottom: 1px solid black;
+}
 
 
 
