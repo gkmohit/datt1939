@@ -19,8 +19,27 @@ var jackie = new NewsItem(
 	"<a href=\"../pages/jackie.html\" class=\"profile-page-link\">Jackie saves world from the dark tower.</a>"
 );
 
+var obesity = new NewsItem(
+	"Exercise making people fat.",
+	"Too Much Exercise Leads to Obesity.",
+	getProperty("jackie", imgSource),
+	"<a href=\"../pages/obesity.html\" class=\"profile-page-link\">Exercise making people fat.</a>"
+);
+
+var globalWarming = new NewsItem(
+	"Global Freezing Threat Levels on an All Time High.",
+	"Pollute more for your survival.",
+	getProperty("jackie", imgSource),
+	"<a href=\"../pages/globalWarming.html\" class=\"profile-page-link\">Global Freezing Threat Levels on an All Time High.</a>"
+);
+
+
+
+
 var articleArray = [
 	straightParade,
 	cardashian,
-	jackie
+	jackie,
+	obesity,
+	globalWarming
 ];

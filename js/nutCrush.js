@@ -73,5 +73,6 @@ document.getElementById("box").onclick = function (){
 setBackground();
 makeBox();
 document.getElementById("stopButton").onclick = function(){
-    document.getElementById("reactionValue").innerHTML = "You clicked on the nut " + count + " times.";
+    var string = "<br><h1>BUT YOU NEVER CRUSHED THE NUT . . . </h1><br><h1>SOOO YOU DID NOT WIN.</h1>" 
+    document.getElementById("reactionValue").innerHTML = "You clicked on the nut " + count + " times." + string;
 }

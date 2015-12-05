@@ -23,17 +23,36 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/custom.css" type="text/css">
     <style type="text/css">
+        body,html{
+            
+        }
         .row [class*="col-"]{
-            background: #fff;
+            /*background: #fff;*/
         }
         .heading-col{
             margin-bottom: -99999px;
             padding-bottom: 99999px;
+            color: #FFF;
+            background-color: #000;
         }
         #userStatus{
             margin-bottom: 3px;
             width: 83%;
         }
+        #loadingGif{
+            height: 100%;
+            width: 10%;
+        }
+        a{
+            color: #fff;
+        }
+        a:hover{
+            color: #F0E0D0;
+        }
+        a:active{
+            color: #000;
+        }
+
     </style>
 </head>
 
@@ -80,11 +99,11 @@
             <div class="col-lg-3 heading-col">
               <h3>TRENDING NEWS</h3>
             </div>
-            <div class="col-lg-6 heading-col">
-              <form class="form-inline">
+            <div class="col-lg-6 heading-col" id="shareDiv">
+                <form class="form-inline" action="shareButton">
                     <!-- <input type="input" class="form-control" id="" maxlength="200" placeholder="What's in your face ? "/>  -->
                     <textarea class="form-control" rows="2" cols="62" id="userStatus" placeholder="What's in your face ?"></textarea> 
-                    <button id="shareButton" class="btn btn-success btn-small">Share</button>
+                    <button id="shareButton" class="btn btn-success btn-small" type="button">Share</button>
                 </form>
             </div>
             <div class="col-lg-3 heading-col">
@@ -198,7 +217,7 @@
                     </a>
                 </div>
                 <div class="game-list-item">
-                    <a href="#">
+                    <a href="whereIsBacon.html">
                         <img src="../img/game2Tile.png" class="game-list-image">
                     </a>
                 </div>
@@ -220,6 +239,15 @@
     <script src="../js/userInfo.js"></script>
     <script src="../js/articles.js"></script>
     <script src="../js/login.js"></script>
+    <script type="text/javascript">
+        var shareButton = document.getElementById("shareButton");
+        var shareDiv = document.getElementById("shareDiv");
+        var shareStatus = function(){
+            var loadingDiv = changeInnerHTML(shareDiv,  "<img src=\"../img/loading.gif\" id=\"loadingGif\"/>");
+        }
+
+        shareButton.onclick = shareStatus;
+    </script>
 
 </body>
 

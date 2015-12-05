@@ -10,6 +10,7 @@ var trendingNewsTitle = document.getElementsByClassName("trending-news-title");
 var trendingNewsBodyShort = document.getElementsByClassName("trending-news-body-short");
 
 
+
 // function NewsItem(title, shortBody, trendingImage, linkText){
 // 	this.title = title;
 // 	this.shortBody = shortBody;
