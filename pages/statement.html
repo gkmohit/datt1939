@@ -45,7 +45,7 @@
         }
         .article-image{
             height: 300px;
-            width: 300px;
+            width: 100%;
         }
         .quotes{
             font-weight: bold;;
@@ -100,34 +100,36 @@
         <div class="container-fluid">
             <h1 class="article-header">Enter Article Name Here</h1>
             <div class="container">
-                <img src="../img/placeholder.png" class="article-image">
+                <img src="../img/DATT1939.png" class="article-image">
                 <p class="article-body">
-                    Global Freezing Threat Levels on an All Time High
-                    Last weekend a collection of the finest environmental specialists have discovered a decrease in global temperatures. They predict that in the next ten years the earth’s surface could become completely covered in ice due to the extremely cold temperatures. Already much of Quebec has already been frozen over by this global climate crisis and caused several of the locals to become climate refugees due to the destruction of their home. An initiative has been started by several Annex 1 countries including Canada to raise awareness of this impending issue to the public. In just three easy everyday tasks you can help raise global greenhouse gas levels in the atmosphere and build a better planet for our children live in the future. 
+                    When making a social media satire, we felt making a playful web-based art piece, from column A, suited this project best as it’s a playful satire that, in this way, becomes an art piece. For column B, we think that the idea of play related to social media fits with the definition of activity for amusement or recreation, which is what social media is itself, and helped push our starting themes forward. We took some inspiration from Ian Bogost by focusing on procedural rhetoric to persuade people in understanding problems that can exist with social media and popular culture. For column D we chose a JavaScript oriented project. 
+
                 </p>
                 <p class="article-body"> 
-                    <ol>
-                        <li>
-                            Leave your car idle even out of use. Whether it be while parked at work or all night long car emissions will help strengthen the atmosphere’s CO2 levels and allow for the melting of the already ever-increasing icecaps. 
-                        </li>
-                        <li>
-                            Use smart energy resources such as coal and fossil fuels. Fueling your car with pure fossil fuels and heating your home with coal energy will help build up more methane and carbon dioxide into the atmosphere. 
-                        </li>
-                        <li>
-                            Avoid the use of green or plant based foliage when decorating the front and backyard. Trees and plants help absorb greenhouse gases which are vital in making this operation a success. The browner and darker the garden the more eco-friendly it will be for the environment and saving the planet. 
-                        </li> 
-                    </ol>                    
+                    We, after a lot of process and deliberation, leaned on a satire of social media and popular culture, and how it can be pretty messed up what people put on there but somehow becomes normalized and how anything and everything can become interesting and popular if it’s talked about enough. We chose Sheetface as a kind of pun and play on Facebook (book being sheet and in reverse order). It set the tone very quickly and coming up with modern inspired satirical pieces was very easy as, to be fair, a lot of what’s out there is strange as is, we simply had to turn a few things around. 
+                </p>
+                <p class="article-body"> 
+                    We chose Claymation as the style for the people because it’s different and a little unexpected. It’s the truth, in some ways, as most people put up a static picture of themselves might as well be Claymation dolls, like puppets, because they’ll believe whatever pop culture tells them, at least that’s what we’re trying to make more aware. More on the Claymation, you might notice their names and bios are very graphic, weird, or strange and that’s because you never really know what someone is like through a little picture, this targets the idea of “don’t judge a book by its cover” as some of the more adorable or normal looking figures are the messed up ones. 
+                </p>
+                <p class="article-body"> 
+                    The whole world, then, is supposed to be nonsensical and this nonsensicality is supposed to be normal for these people, as our nonsensicality is normal to us. A lot of features on the site might be strange or broken, such as home going to your main page but clicking the top left Sheetface button taking you to the face and login screen, it’s supposed to be a broken experience for the player, challenging what they might be used to clicking on more “mainstream designed” social media websites. 
+                </p>
+                <p class="article-body"> 
+                    The color scheme, the overall placement and look, it makes it interesting to see how much we can find out in this environment and how willing someone might be to explore the space. Even the games, being a necessary aspect of social media, play on what people normally expect from little browser games, being a little disappointing and pointless but strange as well. The chat boxes are unresponsive and annoying and not being able to click like but being prompted to click it makes it seem legitimate but actually serves to show the player just how little their input would’ve have mattered regardless.
                 </p>
                 
                 <p class="article-body">
                     In following these simple guidelines together we can build a hospitable and better planet. 
                 </p>
-                <p class="article-body quotes">
-                    “The day has finally come where we can do what ever we want.” – Random Stranger
-                    <br>
-                    “One minute of silience for Jackie and Robbie.” - Die hard dead fan.
-                    <br>
-                    “We never expected a day where this would happen. That is great.” – Toronto Moon
+                <hr>
+                <p class="article-body">
+                    In following these simple guidelines together we can build a hospitable and better planet. 
+                </p>
+                <p class="article-body" style="text-align:left;">
+                    Haha joking. <br>
+                    Thank you <br>
+                    Regards<br>
+                    Team 3
                 </p>
             </div>
             <textarea class="comentText" placeholder="Write your comment . . . "></textarea>
@@ -151,13 +153,11 @@
         var articleImage = document.getElementsByClassName("article-image");
 
 		// function changeInnerHTML(domElement, innerHtmlString )
-		articleHeader[0].innerHTML = "<h1>" + globalWarming.title + "</h1>";
-        articleImage[0].src = globalWarming.trendingImage;
 
         var articleBody = document.getElementsByClassName("article-body");
         // function changeInnerHTML(domElement, innerHtmlString )
 
-        articleBody[2].innerHTML = sentenceCreater(20);
+        articleBody[6].innerHTML = sentenceCreater(50);
 		// fullNameDiv[0].innerHTML = "<h3>" + adamMcDonald.fullName + "</h3>";
 		// speciesDiv[0].innerHTML = "<h3>" + adamMcDonald.species + "</h3>";
 		// bioDiv[0].innerHTML = "<h3>" + adamMcDonald.bio + "</h3>";
