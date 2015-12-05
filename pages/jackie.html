@@ -97,21 +97,12 @@
             <h1 class="article-header">Enter Article Name Here</h1>
             <div class="container">
                 <img src="../img/placeholder.png" class="article-image">
-                <img src="../img/konion.jpg" class="article-image">
-                <img src="../img/kim.jpg" class="article-image">
+                <img src="../img/JackieVsCntower.gif" class="article-image">
                 <p class="article-body">
-                        Coming from one of the most hard working families of the century Mik loses his mind over business
-                    partner Konion. Mik stresses on the point that he himself ends up doing all the work. “Konion is a good 
-                    partner, but he spends more time on his personal  ‘Gift Rappin’ business and I’m left doing all the work.” 
-                    Konion on the other hand says Mik is hard to deal with and is considering going separate ways.
+                        The CN tower and its menacing height has struck fear in Torontonians for decades causing dreadful days and sleepless nights. The citizens have been long living in its shadow unable to live peacefully without the slightest anxiety of being watched by a higher entity. It was Jackie, a courageous and fearless young Dinosaur that brought salvation to all of Toronto from this evil monument. In an epic battle raging on for what some say was decades of intense fighting Jackie’s great strength, speed and dexterity triumphed over the tower’s formidable defenses. Today marks the day of our freedom and the beginning of a new era free from the tower’s menacing grip on our everyday lives. 
                 </p>
                 <p class="article-body"> 
-                    The business duo started company “South East” together and has lasted 3 years now. Being a 
-                    technology based company they has been asked about expanding their business over new horizons such 
-                    as Fashion. But Mik had turned offers down multiple times saying they have not interest in the Fashion 
-                    industry. The duo has recently agreed up on furthering Bacon research after their discovery of a cure for 
-                    cancer. They believe that bacon can be the answer for all of the world’s problems, including world 
-                    peace. 
+                    Jackie has been rewarded handsomely for his patriotic efforts in riding the city’s prime threat and was given a memorial statue located in place of the CN tower’s location. From this day on citizens old and young can now look up proudly at the great Jackie watching over our town protecting it from all that is evil. In addition to these honours parliament has passed December 3rd as being Jackie Day commemorating this dinosaur’s great deed and to make his legacy live on and be remembered for generations to come.                               
                 </p>
                 
                 <p class="article-body">
@@ -119,11 +110,11 @@
                     more does Bacon have to offer ? Only time will tell if they can stick through this spat.
                 </p>
                 <p class="article-body quotes">
-                    “I saw Mik hit Konion and Konion was not happy” – Konion Fan
+                    “The day has finally come where we can do what ever we want.” – Random Stranger
                     <br>
-                    “There have been numerous times when Mik's wife was carriny Konion's child.!” - Mik's Doctor.
+                    “One minute of silience for Jackie and Robbie.” - Die hard dead fan.
                     <br>
-                    “Mik is tough to deal with, She is begging for us to write about her in our papaer. !” – Toronto Moon
+                    “We never expected a day where this would happen. That is great.” – Toronto Moon
                 </p>
             </div>
             <textarea class="comentText" placeholder="Write your comment . . . "></textarea>
@@ -147,8 +138,13 @@
         var articleImage = document.getElementsByClassName("article-image");
 
 		// function changeInnerHTML(domElement, innerHtmlString )
-		articleHeader[0].innerHTML = "<h1>" + cardashian.title + "</h1>";
-        articleImage[0].src = cardashian.trendingImage;
+		articleHeader[0].innerHTML = "<h1>" + jackie.title + "</h1>";
+        articleImage[0].src = jackie.trendingImage;
+
+        var articleBody = document.getElementsByClassName("article-body");
+        // function changeInnerHTML(domElement, innerHtmlString )
+
+        articleBody[2].innerHTML = sentenceCreater(20);
 		// fullNameDiv[0].innerHTML = "<h3>" + adamMcDonald.fullName + "</h3>";
 		// speciesDiv[0].innerHTML = "<h3>" + adamMcDonald.species + "</h3>";
 		// bioDiv[0].innerHTML = "<h3>" + adamMcDonald.bio + "</h3>";

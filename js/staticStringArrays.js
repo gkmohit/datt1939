@@ -62,8 +62,12 @@ var imgSource = {
 	"xxX_Pyromasterz_XxX" : "../img/ProfilePictures/XxX_Pyromasterz_XxX.jpg",
 	"zeroxDaniel" : "../img/ProfilePictures/ZeroxDaniel.jpg",
 	"paradeFlag" : "../img/paradeFlag.png",
-	"cardashian" : "../img/paradeFlag.png",
-	"jackie" : "../img/paradeFlag.png"
+	"cardashian" : "../img/cardasian.jpg",
+	"jackie" : "../img/jackie.jpg",
+	"obesity" : "../img/ProfilePictures/BrokkLee.jpg",
+	"globalWarming" : "../img/globalWarming.png",
+	"baconCancer" : "../img/baconCancer.png"
+
 
 };
 

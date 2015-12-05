@@ -97,13 +97,8 @@
             <h1 class="article-header">Enter Article Name Here</h1>
             <div class="container">
                 <img src="../img/placeholder.png" class="article-image">
-                <img src="../img/konion.jpg" class="article-image">
-                <img src="../img/kim.jpg" class="article-image">
                 <p class="article-body">
-                        Coming from one of the most hard working families of the century Mik loses his mind over business
-                    partner Konion. Mik stresses on the point that he himself ends up doing all the work. “Konion is a good 
-                    partner, but he spends more time on his personal  ‘Gift Rappin’ business and I’m left doing all the work.” 
-                    Konion on the other hand says Mik is hard to deal with and is considering going separate ways.
+                    Studies from Fork U have shown in multiple experiments on lab dogs that an excessive amount of exercise can cause an increase in body mass. Push ups can cause flabby biceps to build up and sit ups can cause bloating in the stomach. Bacon can help improve respiratory health and keep you slim and slender. Apples have been known to cause fat build-up in the arteries and can lead to a potential heart attack. Be smart and remain inactive.    
                 </p>
                 <p class="article-body"> 
                     The business duo started company “South East” together and has lasted 3 years now. Being a 
@@ -119,11 +114,11 @@
                     more does Bacon have to offer ? Only time will tell if they can stick through this spat.
                 </p>
                 <p class="article-body quotes">
-                    “I saw Mik hit Konion and Konion was not happy” – Konion Fan
+                    “I have been running all my life, I hope it doesnt kill me now” – Usain Screw
                     <br>
-                    “There have been numerous times when Mik's wife was carriny Konion's child.!” - Mik's Doctor.
+                    “I always knew eating was good. Food is better than exercise. Give me cheese.” - Mouth full of cheese.
                     <br>
-                    “Mik is tough to deal with, She is begging for us to write about her in our papaer. !” – Toronto Moon
+                    “Why spend money when you can eat cheese?” – Toronto Moon
                 </p>
             </div>
             <textarea class="comentText" placeholder="Write your comment . . . "></textarea>
@@ -145,10 +140,14 @@
         // };
     	var articleHeader = document.getElementsByClassName("article-header");
         var articleImage = document.getElementsByClassName("article-image");
-
+        var articleBody = document.getElementsByClassName("article-body");
 		// function changeInnerHTML(domElement, innerHtmlString )
-		articleHeader[0].innerHTML = "<h1>" + cardashian.title + "</h1>";
-        articleImage[0].src = cardashian.trendingImage;
+		articleHeader[0].innerHTML = "<h1>" + obesity.title + "</h1>";
+        articleImage[0].src = obesity.trendingImage;
+
+        articleBody[1].innerHTML = sentenceCreater(200);
+
+        articleBody[2].innerHTML = sentenceCreater(20);
 		// fullNameDiv[0].innerHTML = "<h3>" + adamMcDonald.fullName + "</h3>";
 		// speciesDiv[0].innerHTML = "<h3>" + adamMcDonald.species + "</h3>";
 		// bioDiv[0].innerHTML = "<h3>" + adamMcDonald.bio + "</h3>";

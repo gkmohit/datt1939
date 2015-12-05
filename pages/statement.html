@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	<title>SheetFace Article - Cardashian</title>
+	<title>SheetFace Statement</title>
 	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
 	<!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
@@ -35,12 +35,16 @@
             margin: 5px;
             padding: 5px;
         }
+        ol{
+            color: #FFED9D;
+            font-size: 1.3em;
+        }
         .article-header{
             font-weight: bold;
             color: #FFF;
         }
         .article-image{
-            height: 181px;
+            height: 300px;
             width: 300px;
         }
         .quotes{
@@ -97,33 +101,33 @@
             <h1 class="article-header">Enter Article Name Here</h1>
             <div class="container">
                 <img src="../img/placeholder.png" class="article-image">
-                <img src="../img/konion.jpg" class="article-image">
-                <img src="../img/kim.jpg" class="article-image">
                 <p class="article-body">
-                        Coming from one of the most hard working families of the century Mik loses his mind over business
-                    partner Konion. Mik stresses on the point that he himself ends up doing all the work. “Konion is a good 
-                    partner, but he spends more time on his personal  ‘Gift Rappin’ business and I’m left doing all the work.” 
-                    Konion on the other hand says Mik is hard to deal with and is considering going separate ways.
+                    Global Freezing Threat Levels on an All Time High
+                    Last weekend a collection of the finest environmental specialists have discovered a decrease in global temperatures. They predict that in the next ten years the earth’s surface could become completely covered in ice due to the extremely cold temperatures. Already much of Quebec has already been frozen over by this global climate crisis and caused several of the locals to become climate refugees due to the destruction of their home. An initiative has been started by several Annex 1 countries including Canada to raise awareness of this impending issue to the public. In just three easy everyday tasks you can help raise global greenhouse gas levels in the atmosphere and build a better planet for our children live in the future. 
                 </p>
                 <p class="article-body"> 
-                    The business duo started company “South East” together and has lasted 3 years now. Being a 
-                    technology based company they has been asked about expanding their business over new horizons such 
-                    as Fashion. But Mik had turned offers down multiple times saying they have not interest in the Fashion 
-                    industry. The duo has recently agreed up on furthering Bacon research after their discovery of a cure for 
-                    cancer. They believe that bacon can be the answer for all of the world’s problems, including world 
-                    peace. 
+                    <ol>
+                        <li>
+                            Leave your car idle even out of use. Whether it be while parked at work or all night long car emissions will help strengthen the atmosphere’s CO2 levels and allow for the melting of the already ever-increasing icecaps. 
+                        </li>
+                        <li>
+                            Use smart energy resources such as coal and fossil fuels. Fueling your car with pure fossil fuels and heating your home with coal energy will help build up more methane and carbon dioxide into the atmosphere. 
+                        </li>
+                        <li>
+                            Avoid the use of green or plant based foliage when decorating the front and backyard. Trees and plants help absorb greenhouse gases which are vital in making this operation a success. The browner and darker the garden the more eco-friendly it will be for the environment and saving the planet. 
+                        </li> 
+                    </ol>                    
                 </p>
                 
                 <p class="article-body">
-                    Will Bacon be the reason to keep this duo together ? Will the world ever find out how much 
-                    more does Bacon have to offer ? Only time will tell if they can stick through this spat.
+                    In following these simple guidelines together we can build a hospitable and better planet. 
                 </p>
                 <p class="article-body quotes">
-                    “I saw Mik hit Konion and Konion was not happy” – Konion Fan
+                    “The day has finally come where we can do what ever we want.” – Random Stranger
                     <br>
-                    “There have been numerous times when Mik's wife was carriny Konion's child.!” - Mik's Doctor.
+                    “One minute of silience for Jackie and Robbie.” - Die hard dead fan.
                     <br>
-                    “Mik is tough to deal with, She is begging for us to write about her in our papaer. !” – Toronto Moon
+                    “We never expected a day where this would happen. That is great.” – Toronto Moon
                 </p>
             </div>
             <textarea class="comentText" placeholder="Write your comment . . . "></textarea>
@@ -147,8 +151,13 @@
         var articleImage = document.getElementsByClassName("article-image");
 
 		// function changeInnerHTML(domElement, innerHtmlString )
-		articleHeader[0].innerHTML = "<h1>" + cardashian.title + "</h1>";
-        articleImage[0].src = cardashian.trendingImage;
+		articleHeader[0].innerHTML = "<h1>" + globalWarming.title + "</h1>";
+        articleImage[0].src = globalWarming.trendingImage;
+
+        var articleBody = document.getElementsByClassName("article-body");
+        // function changeInnerHTML(domElement, innerHtmlString )
+
+        articleBody[2].innerHTML = sentenceCreater(20);
 		// fullNameDiv[0].innerHTML = "<h3>" + adamMcDonald.fullName + "</h3>";
 		// speciesDiv[0].innerHTML = "<h3>" + adamMcDonald.species + "</h3>";
 		// bioDiv[0].innerHTML = "<h3>" + adamMcDonald.bio + "</h3>";
