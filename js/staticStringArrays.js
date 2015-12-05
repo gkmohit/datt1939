@@ -66,7 +66,10 @@ var imgSource = {
 	"jackie" : "../img/jackie.jpg",
 	"obesity" : "../img/ProfilePictures/BrokkLee.jpg",
 	"globalWarming" : "../img/globalWarming.png",
-	"baconCancer" : "../img/baconCancer.png"
+	"baconCancer" : "../img/baconCancer.png",
+	"porkFarmers" : "../img/pig.png",
+	"baconSlap" : "../img/baconSlap.png",
+	"appleVsApple" :  "../img/appleVsApple.png" 
 
 
 };

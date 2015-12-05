@@ -42,11 +42,24 @@ var baconCancer = new NewsItem(
 
 var porkFarmers = new NewsItem(
 	"Pork farmers butchered alive, need increased security measures!",
-	"A recent survey made by the Pork Protection Agency (PPA) finds that most farmers and butchers don’t feel safe working around pigs",
-	getProperty("globalWarming", imgSource),
-	"<a href=\"../pages/globalWarming.html\" class=\"profile-page-link\">Pork farmers butchered alive, need increased security measures!</a>"
+	"A recent survey made by the Pork Protection Agency (PPA).",
+	getProperty("porkFarmers", imgSource),
+	"<a href=\"../pages/porkFarmers.html\" class=\"profile-page-link\">Pork farmers butchered alive, need increased security measures!</a>"
 );
 
+var baconSlap = new NewsItem(
+	"Bacon Slap Challenge (BSC) huge social phenominom",
+	"The recently trending “Bacon Slap Challenge” is catching a lot of . . . ",
+	getProperty("baconSlap", imgSource),
+	"<a href=\"../pages/baconSlap.html\" class=\"profile-page-link\">Bacon Slap Challenge (BSC) huge social phenominom</a>"
+);
+
+var appleVsApple = new NewsItem(
+	"Apple sues Apples for \“defaming our good name\” says Apple CEO",
+	"Apple has recently filed a lawsuit against apples stating that these unhealthy, disgusting",
+	getProperty("appleVsApple", imgSource),
+	"<a href=\"../pages/appleVsApple.html\" class=\"profile-page-link\">Apple sues Apples for \“defaming our good name\” says Apple CEO</a>"
+);
 
 var articleArray = [
 	straightParade,
@@ -54,5 +67,8 @@ var articleArray = [
 	jackie,
 	obesity,
 	globalWarming,
-	baconCancer
+	baconCancer,
+	porkFarmers,
+	baconSlap,
+	appleVsApple
 ];
